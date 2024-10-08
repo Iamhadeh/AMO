@@ -45,7 +45,7 @@ function createTechstack (TechstackInfo) {
     return (
         <>
         <div className="header">
-            <img className="headeImg" src="./src/Rectangle-2.png" alt="" />
+            <img className="headeImg" src="../static/images/Rectangle-2.png" alt="" />
             <menu> 
                 <button className="btn">PortFolio</button>
                 <button className="btn">About</button>
@@ -70,7 +70,7 @@ function createTechstack (TechstackInfo) {
         </div> 
 
         <div className="main">
-            <img className="profile-Img" src="./src/e4sz6s_1.jpg " alt="" />
+            <img className="profile-Img" src="../static/images/e4sz6s_1.jpg " alt="" />
             <div className="text-area">
                 <p></p>
             </div>
