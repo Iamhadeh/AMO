@@ -19,8 +19,8 @@ const TechstackInfo = [
         img: "../static/images/icons8-express-js.svg"
     },
     {
-        techstack: "Casscading Style Sheet",
-        img: "../static/images/icons8-css.svg"
+        techstack: "CSS",
+        img: "../static/images/css-3_732190 (1).png"
     },
 
 ]

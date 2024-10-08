@@ -104,17 +104,6 @@ function createTechstack (TechstackInfo) {
 
             </div>
 
-               {/* <div className="container-2">
-                  <div className="SD-portfolio"></div>
-                  <div className="SD-experience"></div>
-                  <div className="SDskills"></div>
-               </div>
-
-              <div className="container-3">
-                  <div className="SEO-portfolio"></div>
-                  <div className="SEO-experience"></div>
-                  <div className="SEOskills"></div>
-              </div> */}
 
         </div>
 
