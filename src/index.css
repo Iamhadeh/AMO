@@ -1400,7 +1400,7 @@ button:hover {
   padding: 0px;
   margin-left: 20px;
   padding-top: 10px;
-  padding-left: 0px;
+  padding-left: 20px;
   color: white;
   width: 265px;
  }
@@ -1863,6 +1863,7 @@ button:hover {
  .SD-TechStark h2, .proHead {
   padding: 0px;
   margin: 0px;
+  margin-left: 20px;
   padding-top: 10px;
   padding-left: 20px;
   color: white;
@@ -2334,13 +2335,15 @@ button:hover {
   padding: 0px;
   margin-left: 20px;
   padding-top: 10px;
-  padding-left: 0px;
+  padding-left: 20px;
   color: white;
   width: 265px;
  }
 
+
 .contact-container .proHead {
-  width: 275px;
+  width: 245px;
+  padding-left: 10px;
 }
 
  .techDivCon {
@@ -2802,6 +2805,15 @@ button:hover {
   padding-left: 20px;
   color: white;
   width: 260px;
+ }
+
+ 
+ .SD-TechStark h2 {
+  padding: 0px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 265px;
  }
 
 
