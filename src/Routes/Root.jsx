@@ -5,6 +5,7 @@ import Experiences from "../components/experiences";
 import WDprojectExperience from "../components/WDprojectExperince";
 import Techstack from "../components/TechStack.jsx";
 import TechstackInfo from "../components/TechStack.js";
+import Ham from "../components/Hamburgermenu.jsx";
 
 
 function Root () {
@@ -51,6 +52,7 @@ function createTechstack (TechstackInfo) {
                 <button className="btn">About</button>
                 <button className="btn">Contact</button>
             </menu>
+            <Ham />
             <h1>Hi, I am <span className="nameId">Adekusibe Ogunmokun</span> </h1>
             <h2 className="propositon">There are three major things I help business do:</h2>
         </div>
