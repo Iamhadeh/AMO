@@ -237,7 +237,7 @@ button:hover {
  }
 
  li {
-  color: black;
+  color: white;
   text-decoration: none;
  }
 
@@ -1268,7 +1268,6 @@ button:hover {
   flex-direction: column;
   gap: 10px;
   width: 300px;
-  /* background-color: green; */
   height: fit-content;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -1282,9 +1281,8 @@ button:hover {
   height: fit-content;
   margin-top: 20px;
   margin-bottom: 20px;
-  /* background-color: greenyellow; */
   padding-left: 0px;
-  margin-left: 20px;
+  margin-left: 0px;
   justify-content: center;
   align-items: center;
  }
@@ -1313,8 +1311,7 @@ button:hover {
   margin-bottom: 50px;
   padding-bottom: 0px;
   padding-top: 20px;
-  padding-left: 0px;
-  border: 2px solid white;
+  padding-left: 20px;
 }
 
 .main-exp-box {
@@ -1334,13 +1331,16 @@ button:hover {
 
  .SD-TechStark h2, .proHead {
   padding: 0px;
-  margin: 0px;
+  margin-left: 20px;
   padding-top: 10px;
-  padding-left: 20px;
+  padding-left: 0px;
   color: white;
+  width: 265px;
  }
 
-
+.contact-container .proHead {
+  width: 275px;
+}
 
  .techDivCon {
   width: 300px;
@@ -1474,7 +1474,6 @@ button:hover {
 }
 
 .contact .contact-container {
-  background-color: green;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -1520,7 +1519,7 @@ a {
 .proHead {
   border-bottom: 2px solid white;
   text-align: left;
-  width: 275px;
+  width: 245px;
   color: white;
 }
 
@@ -1800,7 +1799,10 @@ button:hover {
   padding-top: 10px;
   padding-left: 20px;
   color: white;
+  width: 260px;
  }
+
+
 
 
 
@@ -1942,7 +1944,6 @@ button:hover {
 }
 
 .contact .contact-container {
-  background-color: green;
   display: flex;
   justify-content: center;
   align-items: flex-start;

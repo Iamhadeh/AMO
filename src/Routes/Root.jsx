@@ -86,7 +86,8 @@ function createTechstack (TechstackInfo) {
             <div className="container-1">
               <div className="Con">
                   <h2 className="proHead">Projects</h2>
-                  {projectInfo.map(createProject)}
+
+                  {projectInfo.map(createProject)} 
                </div>
 
                <div className="Con">
