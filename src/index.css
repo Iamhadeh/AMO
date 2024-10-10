@@ -1622,6 +1622,10 @@ margin-left: 30px;
 
 }
 
+.techDiv p {
+  color: white;
+}
+
 }
 
 
@@ -2144,6 +2148,10 @@ a {
 .why-work-with-me button {
   margin-left: 30px;
 
+}
+
+.techDiv p {
+  color: white;
 }
 
 }
@@ -3134,6 +3142,10 @@ a {
 
 }
 
+.techDiv p {
+  color: white;
+}
+
 }
 
 
@@ -3614,6 +3626,11 @@ a {
 .why-work-with-me button {
   margin-left: 30px;
 
+} 
+
+
+.techDiv p {
+  color: white;
 }
 
 }
