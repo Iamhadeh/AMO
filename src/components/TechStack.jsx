@@ -4,7 +4,7 @@ function Techstack (props) {
     return (
         <div className="techDiv">
             <img className="stack-svg" src={props.img} alt="" />
-            <p>{props.techstack}</p>  
+            <p className="techStarkName">{props.techstack}</p>  
         </div>
     )
     

@@ -7,8 +7,21 @@ import Techstack from "../components/TechStack.jsx";
 import TechstackInfo from "../components/TechStack.js";
 import Ham from "../components/Hamburgermenu.jsx";
 
+import { useState } from "react";
+
 
 function Root () {
+
+const [initialCon, setContact] = useState("hide")
+
+
+function handlecClick () {
+    setContact("story-div")
+}
+
+function handlecClose () {
+    setContact("hide")
+}
     
 function createProject (projectInfo) {
     return (
@@ -36,7 +49,8 @@ function createTechstack (TechstackInfo) {
     return (
         <Techstack
         techstack= {TechstackInfo.techstack}
-        img= {TechstackInfo.img}  
+        img= {TechstackInfo.img} 
+        key={TechstackInfo.id} 
         />
     )
 }
@@ -49,12 +63,12 @@ function createTechstack (TechstackInfo) {
             <img className="headeImg" src="../static/images/Rectangle-2.png" alt="" />
             <menu> 
                 <button className="btn">PortFolio</button>
-                <button className="btn">About</button>
+                <button onClick={handlecClick} className="btn">About</button>
                 <button className="btn">Contact</button>
             </menu>
             <Ham />
             <h1>Hi, I am <span className="nameId">Adekusibe Ogunmokun</span> </h1>
-            <h2 className="propositon">There are three major things I help business do:</h2>
+            <h2 className="propositon">I help business do three main things:</h2>
         </div>
 
         
@@ -78,6 +92,32 @@ function createTechstack (TechstackInfo) {
             </div>
         </div>
 
+        <div className="about">
+                <div className="aboutContainer">
+                    <div className="textBox">
+                       <h2 className="proHead" >About Me</h2>
+                        <p> I am Adekusibe Ogunmokun. I help business owners to take their business online by providing such services that makes people to patronise them remotely or make it easy for people to find them. 
+                            I can create your website and ensure that when people search for what you do, they will land on your page. 
+                        </p>
+                        <button onClick={handlecClick} className="btnReadMore">Read The Rest Of My Story</button>
+                    </div> 
+                </div>
+            </div>
+            <div className={initialCon}>
+                <div className="inside-story-div">
+                    <img src="" alt="" />
+
+                      <button onClick={handlecClose} className="close">close</button>
+                        <h2>My Story</h2>
+                        <p>Everyone started from somewhere. I started with writing. I was a student with a passion for writing. When I turned twenty-three in school, still an undergraduate, I realized it was possible to make money from writing.
+                            So, the journey began.
+                        </p>
+                        <p>
+                            
+                        </p>
+                    </div>
+            </div>
+
         <div className="choose">
             <button>SOFTWARE DEVELOPMENT</button>
             <button>SEO</button>
@@ -88,14 +128,14 @@ function createTechstack (TechstackInfo) {
             <div className="container-1">
               <div className="Con">
                   <h2 className="proHead">Projects</h2>
-
                   {projectInfo.map(createProject)} 
                </div>
 
                <div className="Con">
+                <div className="experinceCon">
                   <h2 className="proHead">Experience</h2>
-               {WDprojectExperience.map(createExp)} 
-
+                  {WDprojectExperience.map(createExp)} 
+                </div>
                </div>   
 
                 <div className="SD-TechStark">
@@ -104,31 +144,14 @@ function createTechstack (TechstackInfo) {
                       {TechstackInfo.map(createTechstack)}
                     </div>
                 </div>
-
             </div>
-
-
         </div>
 
 
 
-            <div className="about">
-                <div className="aboutContainer">
-                   <div className="myImg"><img src="" alt="" /></div>
-                    <div className="textBox">
-                       <h2 className="proHead" >About Me</h2>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                        </p>
-                     </div>
-                </div>
-            </div>
 
             <div className="contact">
-                <div className="contact-container">
+                <div className="contact-contact">
                    <h2 className="proHead" >Contact</h2>
                     <ul>
                       <li>Call: 0813-7470-578</li>
@@ -140,18 +163,19 @@ function createTechstack (TechstackInfo) {
             <div className="why-work-with-me">
                <div className="contact-container">
                   <h2 className="proHead" > Why Work With Me</h2>
-                  <h3>Excellence, Integrity, & Growth</h3>
-                  <p>I work on the business that want grow. I snicerely believe that every business shouldbe actively growing. If not they, are dying</p>
-                  <button className=""><a href=" ">LET'S CHAT...</a></button>
+                  <h3 className="h3Excel">Excellence, Integrity, & Growth</h3>
+                  <p>I work on the business that want to grow. I snicerely believe that every business shouldbe actively growing. If not they, are dying</p>
+                  <button className="chatBtn"><a href=" ">LET'S CHAT...</a></button>
                 </div>
             </div>
 
             <footer>
                 <div className="bar">
-                   <a href=""><img src="" alt="" /></a> 
-                   <a href=""><img src="" alt="" /></a>
-                   <a href=""><img src="" alt="" /></a>
-                   <a href=""><img src="" alt="" /></a>
+                   <a href=""><img src="../static/images/static/linkedin.svg" alt="" /></a> 
+                   <a href="https://www.linkedin.com/in/adekusibe-ogunmokun-seo-pro/"><img src="../static/images/static/link.svg" alt="" /></a>
+                   <a href="x.com/iamhadeh"><img src="../static/images/static/twitter-x.svg" alt="" /></a>
+                   <a href="https://www.instagram.com/iamhadeh/"><img src="../static/images/static/instagram.svg" alt="" /></a>
+                   <a href="https://github.com/Iamhadeh"><img style={{height: "20px"}} src="../static/images/static/image.png" alt="" /></a>
                 </div>
             </footer>       
         </>
