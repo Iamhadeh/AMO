@@ -68,7 +68,7 @@ function createTechstack (TechstackInfo) {
             </menu>
             <Ham />
             <h1>Hi, I am <span className="nameId">Adekusibe Ogunmokun</span> </h1>
-            <h2 className="propositon">I help business do three main things:</h2>
+            <h2 className="propositon">I help businesses to do three main things:</h2>
         </div>
 
         
@@ -113,8 +113,19 @@ function createTechstack (TechstackInfo) {
                             So, the journey began.
                         </p>
                         <p>
-                            
+                         I started writing for business owners who are the point where they can't do everything alone anymore. 
+                         My responsibillity is to capture their business objectives and tell people in a way that's interesting. 
+                         Gradually, I began to understand that content is more than writing. It's more than what's on the page. 
+                         There <span className="red-color">psychology </span> behind it. I needed to do more to get the kind of results this businesses need. 
+                         I started studying somethign called copywriting and storytelling. 
+                         I study the best people who have had success with selling with words. Notably I fell in love with the <span className="red-color"> Boron Letters</span> and <span className="red-color">Joseph Sugarman's Copy Ad book.</span> I began to see the bigger picture and the role of technology.
                         </p>
+
+                        <p>People create content online, but there are tools, systems, and techonologies that makes it possible for the content to go wide or viral. One of these system <span className="red-color">search engine optimization</span>. It fascinates me becuase it's more in your control, gives you room to be a lot more flexible, and the investment is simple compare to the long-term reward. 
+                            With SEO, you can do the work for just one year and keep getting sales or reward for as long your website is online. Social media won't let you do that. If you stop creating on Instagram or Tiktok, your growth or analytic drops compare to the rate it would be if you did SEO well on your website. 
+                            So, I became an SEO person. It took a year, working with agencies as a staff, learning, building my own website and freelancing to get the kind of knowledge that makes me say, I understand this enoough.</p> 
+                            <p>But there is more to SEO. You have to understand <span className="red-color">psychology, search algorithm</span>, and <span className="red-color">how website works</span>. I tinkered with all areas of SEO for years and got hands on experience while at it. But I wanted to know and do more. Therefore, I started to learn <span className="red-color">Web Development</span> </p>
+                            <p>Please, check my <span className="red-color">portfolio page</span>  for more information on how I can help or what I can do for your business. Use the contact button below to reach me or you can click on any of the social media icons on the footer. Thank you.</p>
                     </div>
             </div>
 
@@ -148,8 +159,6 @@ function createTechstack (TechstackInfo) {
         </div>
 
 
-
-
             <div className="contact">
                 <div className="contact-contact">
                    <h2 className="proHead" >Contact</h2>
@@ -164,8 +173,8 @@ function createTechstack (TechstackInfo) {
                <div className="contact-container">
                   <h2 className="proHead" > Why Work With Me</h2>
                   <h3 className="h3Excel">Excellence, Integrity, & Growth</h3>
-                  <p>I work on the business that want to grow. I snicerely believe that every business shouldbe actively growing. If not they, are dying</p>
-                  <button className="chatBtn"><a href=" ">LET'S CHAT...</a></button>
+                  <p>I work on the business that want to grow. I snicerely believe that every business should be actively growing. If not they, are dying</p>
+                  <button className="chatBtn"> <a href="mailto:princeadewrites@gmail.com">LET'S CHAT...</a></button>
                 </div>
             </div>
 
